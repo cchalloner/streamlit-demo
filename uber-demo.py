@@ -31,7 +31,7 @@ def load_data(nrows):
     return data
 
 with st.spinner("Loading data…"):
-    data = load_data(10000)
+    data = load_data(20000)
 
 # ── Sidebar controls ──────────────────────────────────────────────────────────
 st.sidebar.header("Filter Options")
